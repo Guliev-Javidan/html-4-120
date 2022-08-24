@@ -1,0 +1,71 @@
+.container {
+    height: 100vh;
+}
+
+.header {
+    height: 10%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #276eb4;
+}
+
+.logo-div img {
+    width: 226px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+    padding: 7px;
+}
+
+button {
+    padding: 12px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    color: #fff;
+}
+
+.content {
+    margin: 15px;
+    height: 70%;
+    display: flex;
+}
+
+.left-side {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 90%;
+    width: 20%;
+}
+
+.left-side img {
+    width: 100%;
+}
+
+.main {
+    margin-top: 20px;
+    height: 90%;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.right-side {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 20%;
+    height: 90%;
+}
+
+.footer {
+    width: 98%;
+    height: 10%;
+    margin: 0 15px;
+}
